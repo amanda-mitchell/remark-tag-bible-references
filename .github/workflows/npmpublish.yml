@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+          registry-url: https://npm.pkg.github.com/
       - run: yarn --frozen-lockfile --ignore-scripts
         env:
           NODE_AUTH_TOKEN: ${{secrets.PRIVATE_PACKAGE_TOKEN}}
