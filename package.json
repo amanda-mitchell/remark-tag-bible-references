@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@david-mitchell/biblia-api": "^0.0.2",
+    "@david-mitchell/node-project-scripts": "^1.1.1",
     "dotenv": "^8.2.0",
     "jest": "^26.0.1",
     "node-fetch": "^2.6.0",
