@@ -395,10 +395,10 @@
   dependencies:
     find-up "^4.0.0"
 
-"@david-mitchell/biblia-api@^0.0.2":
-  version "0.0.2"
-  resolved "https://npm.pkg.github.com/download/@david-mitchell/biblia-api/0.0.2/5c975aaeed9f04be90e7dfa7c265888b2b75b24b72d6c3a276b3fa4883265162#93e4da23c60529690b6d5ae7df20323869496885"
-  integrity sha512-+AgyU5tkHLSJKuSiH6dnpZMnuhuf01RFXOTJlh/ZOTZd4tgeddkjQmT7n6A1CbwxMkpL6MD5m2J0WkUJ+VGS3w==
+"@david-mitchell/biblia-api@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.pkg.github.com/download/@david-mitchell/biblia-api/1.0.0/a79f9aada6b8885d3064d00482b73de9c088e7808210ee38cdca735e61586425#f415534b1e7191de991f6bd57359e7e5ecdc6aaf"
+  integrity sha512-9PzrjGVhELRCaa4volkLxvx9IrsLuzqzsFvszb4yemBT6RDuzq3kk2N7E8ax0cQoQXpvokYUyO2oXZUXuFN5ig==
 
 "@david-mitchell/node-project-scripts@^1.1.2":
   version "1.1.2"
