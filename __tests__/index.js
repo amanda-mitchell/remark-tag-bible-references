@@ -3,12 +3,12 @@ const fetch = require('node-fetch');
 const unified = require('unified');
 const markdown = require('remark-parse');
 const build = require('unist-builder');
-const { createApi } = require('@david-mitchell/biblia-api');
+const { createBibliaApiClient } = require('@david-mitchell/biblia-api');
 const { tagBibleReferences } = require('..');
 
 function createProcessor(bibliaApi) {
   function nullCompiler() {
-    this.Compiler = (tree, _file) => tree;
+    this.Compiler = tree => tree;
   }
 
   return unified()
@@ -36,7 +36,7 @@ I am going to place a verse reference like Genesis
 Genesis 2:1, 3-4
 `;
 
-    const bibliaApi = createApi({
+    const bibliaApi = createBibliaApiClient({
       apiKey: process.env['BIBLIA_API_KEY'],
       fetch,
     });
