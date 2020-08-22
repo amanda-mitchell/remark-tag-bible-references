@@ -21,6 +21,6 @@
     "jest": "^26.0.1",
     "node-fetch": "^2.6.0",
     "remark-parse": "^8.0.2",
-    "unified": "^9.0.0"
+    "unified": "^9.2.0"
   }
 }
