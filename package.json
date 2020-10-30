@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "unist-builder": "^2.0.3",
-    "unist-util-is": "^4.0.2"
+    "unist-util-is": "^4.0.3"
   },
   "devDependencies": {
     "@david-mitchell/biblia-api": "^1.0.0",
