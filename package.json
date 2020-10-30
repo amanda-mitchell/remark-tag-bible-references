@@ -13,7 +13,7 @@
   "dependencies": {
     "@amanda-mitchell/node-project-scripts": "^2.0.0",
     "unist-builder": "^2.0.3",
-    "unist-util-is": "^4.0.2"
+    "unist-util-is": "^4.0.3"
   },
   "devDependencies": {
     "@amanda-mitchell/biblia-api": "^2.0.2",
