@@ -1,5 +1,5 @@
 {
-  "name": "@david-mitchell/remark-tag-bible-references",
+  "name": "@amanda-mitchell/remark-tag-bible-references",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,12 +11,12 @@
     "node": ">=11.0.0"
   },
   "dependencies": {
+    "@amanda-mitchell/node-project-scripts": "^2.0.0",
     "unist-builder": "^2.0.3",
     "unist-util-is": "^4.0.2"
   },
   "devDependencies": {
-    "@david-mitchell/biblia-api": "^1.0.0",
-    "@david-mitchell/node-project-scripts": "^1.1.2",
+    "@amanda-mitchell/biblia-api": "^2.0.2",
     "dotenv": "^8.2.0",
     "jest": "^26.0.1",
     "node-fetch": "^2.6.0",

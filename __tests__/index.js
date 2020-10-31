@@ -3,7 +3,7 @@ const fetch = require('node-fetch');
 const unified = require('unified');
 const markdown = require('remark-parse');
 const build = require('unist-builder');
-const { createBibliaApiClient } = require('@david-mitchell/biblia-api');
+const { createBibliaApiClient } = require('@amanda-mitchell/biblia-api');
 const { tagBibleReferences } = require('..');
 
 function createProcessor(bibliaApi) {

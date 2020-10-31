@@ -1,1 +1,1 @@
-module.exports = require('@david-mitchell/node-project-scripts/prettier.config');
+module.exports = require('@amanda-mitchell/node-project-scripts/prettier.config');
