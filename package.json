@@ -11,7 +11,7 @@
     "node": ">=11.0.0"
   },
   "dependencies": {
-    "@amanda-mitchell/node-project-scripts": "^2.0.0",
+    "@amanda-mitchell/node-project-scripts": "^2.1.2",
     "unist-builder": "^2.0.3",
     "unist-util-is": "^4.0.3"
   },

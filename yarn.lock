@@ -7,10 +7,10 @@
   resolved "https://npm.pkg.github.com/download/@amanda-mitchell/biblia-api/2.0.2/76df08c142639bbeccf98ecb65c98c8834ade6f632e6f10b2c173208fb2e9a3b#fa7ba7fecf78d1cedd31336073060a0c781808b4"
   integrity sha512-0NtNCRWAh2kAGkQ8AuIlbQmvD9SIlPLrwQJKtTpF+owfhJw5nciaxeyoEFegFZL4FbPhC1IpzcUnQcDv71PO1g==
 
-"@amanda-mitchell/node-project-scripts@^2.0.0":
-  version "2.0.0"
-  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/node-project-scripts/2.0.0/3db776e2e6bfaa4ef4b903925113aa96d437f12da0f97d1bbd3a659197ca6017#613eb1852e0b033d75a740bddc5b509918a900e1"
-  integrity sha512-oAkt1h6OjCYsOjq57rXalq4UzlzGFObZT0QQN4MZo+bfpw7LIw7uf8TJECcEzwpuflrlCxnrYERYC9ZUhxXgPw==
+"@amanda-mitchell/node-project-scripts@^2.1.2":
+  version "2.1.2"
+  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/node-project-scripts/2.1.2/ff8031092c592fcb67ea12a1357ca86745fd0e7ed5e60007274e962d0782dd8a#33e44cfc46a8ba031cbaab312e59a53e7bcae20e"
+  integrity sha512-CG5tC2VGBrZss1mRj5XhvAUR8NsGuSDdTCTRetvMjJpmf/qSJHz9W9npksqVit5NJ7CwqmR5Hk1Ndqcov1n5LQ==
   dependencies:
     "@commitlint/cli" "^11.0.0"
     "@commitlint/config-conventional" "^11.0.0"
