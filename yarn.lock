@@ -7,19 +7,28 @@
   resolved "https://npm.pkg.github.com/download/@amanda-mitchell/biblia-api/2.0.2/76df08c142639bbeccf98ecb65c98c8834ade6f632e6f10b2c173208fb2e9a3b#fa7ba7fecf78d1cedd31336073060a0c781808b4"
   integrity sha512-0NtNCRWAh2kAGkQ8AuIlbQmvD9SIlPLrwQJKtTpF+owfhJw5nciaxeyoEFegFZL4FbPhC1IpzcUnQcDv71PO1g==
 
-"@amanda-mitchell/node-project-scripts@^2.1.2":
-  version "2.1.2"
-  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/node-project-scripts/2.1.2/ff8031092c592fcb67ea12a1357ca86745fd0e7ed5e60007274e962d0782dd8a#33e44cfc46a8ba031cbaab312e59a53e7bcae20e"
-  integrity sha512-CG5tC2VGBrZss1mRj5XhvAUR8NsGuSDdTCTRetvMjJpmf/qSJHz9W9npksqVit5NJ7CwqmR5Hk1Ndqcov1n5LQ==
+"@amanda-mitchell/node-project-scripts@^2.3.0":
+  version "2.3.0"
+  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/node-project-scripts/2.3.0/a23fb58471cdb31222e82033c2b37557d71d61902255bbd56218c992dd0c21f2#5efa885635a344e4019c949c3d4607fe6bbe70ff"
+  integrity sha512-70qLXH1R4FpSBwnyUx+gtMdHF4C3rCV7W3VD4aLEC2dueCUQEJnqUKAfpkRA9gclmquw5+tuUBE225BBRyaAjA==
   dependencies:
+    "@amanda-mitchell/semantic-release-npm-multiple" "^2.1.1"
     "@commitlint/cli" "^11.0.0"
     "@commitlint/config-conventional" "^11.0.0"
-    eslint "^7.12.1"
+    eslint "^7.13.0"
     husky "^4.3.0"
     lint-staged "^10.5.1"
-    pkg-dir "^4.2.0"
+    pkg-dir "^5.0.0"
     prettier "2.1.2"
     semantic-release "^17.2.2"
+
+"@amanda-mitchell/semantic-release-npm-multiple@^2.1.1":
+  version "2.1.1"
+  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/semantic-release-npm-multiple/2.1.1/c6ac54dd0a80766336bf307e1977efb9081562fc191c65b27df9e505a2fe4923#3268371b4bcfa24ca3c8fd738e5e14d8b90f70d6"
+  integrity sha512-Hoi3wpGoaO2Sp00OAZCAGG/zOxys9xfPOLARE7H81PSCh82tW4k/XZiO3dzJqVqeDG8SDlo7CWbDae1yqFrNfw==
+  dependencies:
+    "@semantic-release/npm" "^7.0.6"
+    require-reload "^0.2.2"
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.8.3":
   version "7.8.3"
@@ -822,7 +831,7 @@
     p-retry "^4.0.0"
     url-join "^4.0.0"
 
-"@semantic-release/npm@^7.0.0":
+"@semantic-release/npm@^7.0.0", "@semantic-release/npm@^7.0.6":
   version "7.0.6"
   resolved "https://registry.yarnpkg.com/@semantic-release/npm/-/npm-7.0.6.tgz#1301bd57d246eae048d7104a735467bb0829f3d8"
   integrity sha512-F4judxdeLe8f7+vDva1TkqNc5Tb2tcltZYW0tLtvP2Xt7CD/gGiz7UxAWEOPsXBvIqAP+uTidvGLPl9U3/uRoQ==
@@ -2556,10 +2565,10 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.12.1:
-  version "7.12.1"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.12.1.tgz#bd9a81fa67a6cfd51656cdb88812ce49ccec5801"
-  integrity sha512-HlMTEdr/LicJfN08LB3nM1rRYliDXOmfoO4vj39xN6BLpFzF00hbwBoqHk8UcJ2M/3nlARZWy/mslvGEuZFvsg==
+eslint@^7.13.0:
+  version "7.13.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.13.0.tgz#7f180126c0dcdef327bfb54b211d7802decc08da"
+  integrity sha512-uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@eslint/eslintrc" "^0.2.1"
@@ -6029,6 +6038,13 @@ pkg-dir@^4.2.0:
   dependencies:
     find-up "^4.0.0"
 
+pkg-dir@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/pkg-dir/-/pkg-dir-5.0.0.tgz#a02d6aebe6ba133a928f74aec20bafdfe6b8e760"
+  integrity sha512-NPE8TDbzl/3YQYY7CSS228s3g2ollTFnc+Qi3tqmqJp9Vg2ovUpixcJEo2HJScN2Ez+kEaal6y70c0ehqJBJeA==
+  dependencies:
+    find-up "^5.0.0"
+
 please-upgrade-node@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/please-upgrade-node/-/please-upgrade-node-3.2.0.tgz#aeddd3f994c933e4ad98b99d9a556efa0e2fe942"
@@ -6493,6 +6509,11 @@ require-main-filename@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/require-main-filename/-/require-main-filename-2.0.0.tgz#d0b329ecc7cc0f61649f62215be69af54aa8989b"
   integrity sha512-NKN5kMDylKuldxYLSUfrbo5Tuzh4hd+2E8NPPX02mZtn1VuREQToYe/ZdlJy+J3uCpfaiGF05e7B8W0iXbQHmg==
+
+require-reload@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/require-reload/-/require-reload-0.2.2.tgz#29a7591846caf91b6e8a3cda991683f95f8d7d42"
+  integrity sha1-KadZGEbK+RtuijzamRaD+V+NfUI=
 
 resolve-cwd@^3.0.0:
   version "3.0.0"
