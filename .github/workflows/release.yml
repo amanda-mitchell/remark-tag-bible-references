@@ -14,7 +14,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: yarn --frozen-lockfile --ignore-scripts
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          NODE_AUTH_TOKEN: ${{secrets.PRIVATE_PACKAGE_TOKEN}}
       - run: yarn jest
         env:
           BIBLIA_API_KEY: ${{ secrets.BIBLIA_API_KEY }}
