@@ -4,12 +4,12 @@
 
 "@amanda-mitchell/biblia-api@^2.1.1":
   version "2.1.1"
-  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/biblia-api/2.1.1/ecb350df7c7753a7da5b2bc7435e2979d76e78a51ddd2b8445226f61c17eeccd#2291b298c1acea95d7d7a713c3dc1225683e50f2"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/biblia-api/-/biblia-api-2.1.1.tgz#2291b298c1acea95d7d7a713c3dc1225683e50f2"
   integrity sha512-1REgSlnlWNXYni/O0UTotoor/DLIr/EoafiAkl2U+tVfsiu4rDdEG9mwrBZB4uRZqlZBotAiPsx9swf4j8tRAA==
 
 "@amanda-mitchell/node-project-scripts@^2.4.2":
   version "2.4.2"
-  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/node-project-scripts/2.4.2/8f457a44ef3bd3b548c5883091cb2a50d5f44f674412266ab6ee4e8c1d8d9423#d9bd308d90648ef3e7196034e1ffd6127a4cdb04"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-2.4.2.tgz#d9bd308d90648ef3e7196034e1ffd6127a4cdb04"
   integrity sha512-AYQJTO5E9zbq8A1+3nC8pLABwVxd9B+KJKUIlWfOkgkzGRJsAPjqVyApZwWJuiMlKpuFC5T7x+wGqZJL0znKWQ==
   dependencies:
     "@amanda-mitchell/semantic-release-notify-dependabot" "^1.0.0"
@@ -25,14 +25,14 @@
 
 "@amanda-mitchell/semantic-release-notify-dependabot@^1.0.0":
   version "1.0.1"
-  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/semantic-release-notify-dependabot/1.0.1/674134dbf22ed06bea37050f6d85f72e870625b41fa11b2e930a578dd689a3ea#a52d2643796bea9e826892c824c21ff5dae42f9a"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/semantic-release-notify-dependabot/-/semantic-release-notify-dependabot-1.0.1.tgz#a52d2643796bea9e826892c824c21ff5dae42f9a"
   integrity sha512-1SXCXNY5JCKa8wlBnCEO0UrCkLgLkwOx1OTf6xhCDP0sgcdnZja3RW6MPWlbZzziHPQN+jjxg9Jwv1dcjggEAA==
   dependencies:
     node-fetch "^2.6.1"
 
 "@amanda-mitchell/semantic-release-npm-multiple@^2.1.1":
   version "2.1.1"
-  resolved "https://npm.pkg.github.com/download/@amanda-mitchell/semantic-release-npm-multiple/2.1.1/c6ac54dd0a80766336bf307e1977efb9081562fc191c65b27df9e505a2fe4923#3268371b4bcfa24ca3c8fd738e5e14d8b90f70d6"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/semantic-release-npm-multiple/-/semantic-release-npm-multiple-2.1.1.tgz#3268371b4bcfa24ca3c8fd738e5e14d8b90f70d6"
   integrity sha512-Hoi3wpGoaO2Sp00OAZCAGG/zOxys9xfPOLARE7H81PSCh82tW4k/XZiO3dzJqVqeDG8SDlo7CWbDae1yqFrNfw==
   dependencies:
     "@semantic-release/npm" "^7.0.6"

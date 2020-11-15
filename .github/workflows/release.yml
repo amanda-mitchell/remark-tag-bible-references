@@ -11,10 +11,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/
       - run: yarn --frozen-lockfile --ignore-scripts
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.PRIVATE_PACKAGE_TOKEN}}
       - run: yarn jest
         env:
           BIBLIA_API_KEY: ${{ secrets.BIBLIA_API_KEY }}
@@ -28,15 +25,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: https://npm.pkg.github.com/
       - name: Install dependencies
         run: yarn --frozen-lockfile --ignore-scripts
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.PRIVATE_PACKAGE_TOKEN}}
       - name: Release
         env:
+          DEPENDABOT_TOKEN: ${{ secrets.PRIVATE_PACKAGE_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_CONFIG_REGISTRY: https://npm.pkg.github.com/
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: yarn semantic-release
