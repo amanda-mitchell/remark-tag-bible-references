@@ -10,6 +10,14 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "unified",
+    "remark",
+    "remark-plugin",
+    "plugin",
+    "mdast",
+    "markdown"
+  ],
   "engines": {
     "node": ">=11.0.0"
   },
