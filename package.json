@@ -7,6 +7,9 @@
   "files": [
     "*.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=11.0.0"
   },
