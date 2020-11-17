@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@amanda-mitchell/biblia-api/-/biblia-api-2.1.1.tgz#2291b298c1acea95d7d7a713c3dc1225683e50f2"
   integrity sha512-1REgSlnlWNXYni/O0UTotoor/DLIr/EoafiAkl2U+tVfsiu4rDdEG9mwrBZB4uRZqlZBotAiPsx9swf4j8tRAA==
 
-"@amanda-mitchell/node-project-scripts@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-2.6.0.tgz#48dddd8894d28bbafc06aa286bdfa7650d212bbc"
-  integrity sha512-U2AFSHernDffHj98dKlYcnYY17hhs35IqRuH21zGbsezrWYLpUiI19d/SjSQ9PmC8S7m3RX9Wm6sg4UgKkaMCA==
+"@amanda-mitchell/node-project-scripts@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-2.7.0.tgz#6f39ff05b074e419f1209b47ce74f35e104f30c1"
+  integrity sha512-1sxYj5mqHr4W1vni/QaoU468BC1qZixJmQ7z/Ruzz84JNw5PEAtgjitSUTlVKzsRYduNZ0s7BtnLnbT7VZVEDw==
   dependencies:
     "@amanda-mitchell/semantic-release-notify-dependabot" "^1.0.0"
     "@amanda-mitchell/semantic-release-npm-multiple" "^2.1.1"
