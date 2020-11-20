@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@amanda-mitchell/biblia-api/-/biblia-api-2.1.1.tgz#2291b298c1acea95d7d7a713c3dc1225683e50f2"
   integrity sha512-1REgSlnlWNXYni/O0UTotoor/DLIr/EoafiAkl2U+tVfsiu4rDdEG9mwrBZB4uRZqlZBotAiPsx9swf4j8tRAA==
 
-"@amanda-mitchell/node-project-scripts@^2.8.0":
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-2.8.0.tgz#17be05f3be6384eafb74f64cf50734aecac55cc6"
-  integrity sha512-WOoCdvbMwh9/LK+8dDhOvxNT6fJZ3U8/HdhQutIju6fTKzBaj1bXarsVjIyoYFg9OBKpyJOWmGos8yXyCGG4kw==
+"@amanda-mitchell/node-project-scripts@^2.9.0":
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-2.9.0.tgz#e27626590aef1c10d19453b3a52a3de7d1757604"
+  integrity sha512-ERrmGl7bE5IS3iHvrufWGbQW7EnLIK68XSHU8Q9Osa9VegtkveGvUauVNU+jhavDmAKvYOLrX8ETAiwr4bZ2tQ==
   dependencies:
     "@amanda-mitchell/semantic-release-notify-dependabot" "^1.0.0"
     "@amanda-mitchell/semantic-release-npm-multiple" "^2.1.1"
@@ -20,7 +20,7 @@
     husky "^4.3.0"
     lint-staged "^10.5.1"
     pkg-dir "^5.0.0"
-    prettier "2.1.2"
+    prettier "2.2.0"
     semantic-release "^17.2.2"
 
 "@amanda-mitchell/semantic-release-notify-dependabot@^1.0.0":
@@ -6120,10 +6120,10 @@ prepend-http@^1.0.1:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
-prettier@2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.1.2.tgz#3050700dae2e4c8b67c4c3f666cdb8af405e1ce5"
-  integrity sha512-16c7K+x4qVlJg9rEbXl7HEGmQyZlG4R9AgP+oHKRMsMsuk8s+ATStlf1NpDqyBI1HpVyfjLOeMhH2LvuNvV5Vg==
+prettier@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.2.0.tgz#8a03c7777883b29b37fb2c4348c66a78e980418b"
+  integrity sha512-yYerpkvseM4iKD/BXLYUkQV5aKt4tQPqaGW6EsZjzyu0r7sVZZNPJW4Y8MyKmicp6t42XUPcBVA+H6sB3gqndw==
 
 pretty-format@^26.6.2:
   version "26.6.2"
