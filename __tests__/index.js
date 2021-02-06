@@ -54,10 +54,13 @@ Genesis 2:1, 3-4
             {
               data: {
                 bibleReference: {
-                  book: 'Proverbs',
-                  chapter: 26,
-                  verse: 4,
-                  endVerse: 5,
+                  passage: 'Proverbs 26:4\u20135',
+                  parts: {
+                    book: 'Proverbs',
+                    chapter: 26,
+                    verse: 4,
+                    endVerse: 5,
+                  },
                 },
               },
               url: 'https://biblia.com/bible/proverbs/26/4-5',
@@ -69,7 +72,10 @@ Genesis 2:1, 3-4
             'link',
             {
               data: {
-                bibleReference: { book: 'Genesis', chapter: 2, verse: 1 },
+                bibleReference: {
+                  passage: 'Genesis 2:1',
+                  parts: { book: 'Genesis', chapter: 2, verse: 1 },
+                },
               },
               url: 'https://biblia.com/bible/genesis/2/1',
             },
@@ -82,7 +88,10 @@ Genesis 2:1, 3-4
             'link',
             {
               data: {
-                bibleReference: { book: 'Genesis', chapter: 2, verse: 1 },
+                bibleReference: {
+                  passage: 'Genesis 2:1',
+                  parts: { book: 'Genesis', chapter: 2, verse: 1 },
+                },
               },
               url: 'https://biblia.com/bible/genesis/2/1',
             },
@@ -94,10 +103,13 @@ Genesis 2:1, 3-4
             {
               data: {
                 bibleReference: {
-                  book: 'Genesis',
-                  chapter: 2,
-                  verse: 3,
-                  endVerse: 4,
+                  passage: 'Genesis 2:3\u20134',
+                  parts: {
+                    book: 'Genesis',
+                    chapter: 2,
+                    verse: 3,
+                    endVerse: 4,
+                  },
                 },
               },
               url: 'https://biblia.com/bible/genesis/2/3-4',

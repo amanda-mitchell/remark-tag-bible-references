@@ -20,7 +20,9 @@ const trees = [
         'link',
         {
           url: 'https://biblia.com/bible/book',
-          data: { bibleReference: { book: 'book' } },
+          data: {
+            bibleReference: { passage: 'passage', parts: { book: 'book' } },
+          },
         },
         [build('text', 'Hello')]
       ),
@@ -49,7 +51,9 @@ const trees = [
             'link',
             {
               url: 'https://biblia.com/bible/book',
-              data: { bibleReference: { book: 'book' } },
+              data: {
+                bibleReference: { passage: 'passage', parts: { book: 'book' } },
+              },
             },
             [build('text', 'Hello')]
           ),
@@ -88,7 +92,9 @@ const trees = [
           'link',
           {
             url: 'https://biblia.com/bible/book',
-            data: { bibleReference: { book: 'book' } },
+            data: {
+              bibleReference: { passage: 'passage', parts: { book: 'book' } },
+            },
           },
           [build('text', 'Hello')]
         ),
@@ -100,7 +106,12 @@ const trees = [
           'link',
           {
             url: 'https://biblia.com/bible/other-book',
-            data: { bibleReference: { book: 'other book' } },
+            data: {
+              bibleReference: {
+                passage: 'other passage',
+                parts: { book: 'other book' },
+              },
+            },
           },
           [build('text', 'text')]
         ),
@@ -129,7 +140,9 @@ const trees = [
           'link',
           {
             url: 'https://biblia.com/bible/book',
-            data: { bibleReference: { book: 'book' } },
+            data: {
+              bibleReference: { passage: 'passage', parts: { book: 'book' } },
+            },
           },
           [build('text', 'Hello')]
         ),
@@ -140,7 +153,9 @@ const trees = [
           'link',
           {
             url: 'https://biblia.com/bible/book',
-            data: { bibleReference: { book: 'book' } },
+            data: {
+              bibleReference: { passage: 'passage', parts: { book: 'book' } },
+            },
           },
           [build('text', 'Hello')]
         ),

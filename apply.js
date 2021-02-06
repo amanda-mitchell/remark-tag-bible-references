@@ -35,7 +35,7 @@ function splitNode(node, scanResults) {
 function* createNodesForScanResult(text, scanResult) {
   let lastEndIndex = 0;
 
-  for (const { parts, textIndex, textLength } of scanResult) {
+  for (const { passage, parts, textIndex, textLength } of scanResult) {
     if (lastEndIndex < textIndex) {
       yield build('text', text.substr(lastEndIndex, textIndex - lastEndIndex));
     }
@@ -45,7 +45,7 @@ function* createNodesForScanResult(text, scanResult) {
       {
         url: createBibliaLink(parts),
         data: {
-          bibleReference: parts,
+          bibleReference: { parts, passage },
         },
       },
       [build('text', text.substr(textIndex, textLength))]
