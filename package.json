@@ -29,7 +29,7 @@
     "@amanda-mitchell/biblia-api": "^3.2.2",
     "@amanda-mitchell/node-project-scripts": "^2.147.0",
     "dotenv": "^10.0.0",
-    "jest": "^26.6.3",
+    "jest": "^27.2.0",
     "node-fetch": "^2.6.1",
     "remark-parse": "^9.0.0",
     "unified": "^9.2.1"
