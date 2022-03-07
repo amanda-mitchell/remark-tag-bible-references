@@ -1,10 +1,10 @@
-require('dotenv').config();
-const fetch = require('node-fetch');
-const unified = require('unified');
-const markdown = require('remark-parse');
-const build = require('unist-builder');
-const { createBibliaApiClient } = require('@amanda-mitchell/biblia-api');
-const { tagBibleReferences } = require('..');
+import 'dotenv/config';
+import fetch from 'node-fetch';
+import unified from 'unified';
+import markdown from 'remark-parse';
+import build from 'unist-builder';
+import { createBibliaApiClient } from '@amanda-mitchell/biblia-api';
+import { tagBibleReferences } from '../index.js';
 
 function createProcessor(bibliaApi) {
   function nullCompiler() {

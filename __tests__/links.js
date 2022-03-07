@@ -1,4 +1,4 @@
-const { createBibliaLink } = require('../links');
+import { createBibliaLink } from '../links.js';
 
 describe.each([
   row({ book: 'genesis' }, 'https://biblia.com/bible/genesis'),

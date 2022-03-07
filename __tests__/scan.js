@@ -1,5 +1,5 @@
-const build = require('unist-builder');
-const { scanTextNodes } = require('../scan');
+import build from 'unist-builder';
+import { scanTextNodes } from '../scan.js';
 
 test('it scans a text node', async () => {
   const bibliaApi = {

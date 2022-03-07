@@ -1,7 +1,7 @@
-const { scanTextNodes } = require('./scan');
-const { applyScanResults } = require('./apply');
+import { scanTextNodes } from './scan.js';
+import { applyScanResults } from './apply.js';
 
-function tagBibleReferences({ bibliaApi, tagChapters }) {
+export function tagBibleReferences({ bibliaApi, tagChapters }) {
   const scanOptions = { tagChapters };
 
   return async function transform(tree) {
@@ -10,5 +10,3 @@ function tagBibleReferences({ bibliaApi, tagChapters }) {
     return applyScanResults(tree, scanResults);
   };
 }
-
-module.exports.tagBibleReferences = tagBibleReferences;

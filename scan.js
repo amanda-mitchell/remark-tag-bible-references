@@ -1,7 +1,7 @@
-const { awaitValues } = require('./util');
-const { isLink, isText } = require('./predicates');
+import { awaitValues } from './util.js';
+import { isLink, isText } from './predicates.js';
 
-async function scanTextNodes(tree, bibliaApi, { tagChapters }) {
+export async function scanTextNodes(tree, bibliaApi, { tagChapters }) {
   const scanResults = await mapUniqueValues(
     findLinkableTextNodeValues(tree),
     text => scanForReferences(bibliaApi, text, tagChapters)
@@ -63,5 +63,3 @@ function findLinkableTextNodeValues(node) {
 
   return [];
 }
-
-module.exports.scanTextNodes = scanTextNodes;

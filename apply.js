@@ -1,8 +1,8 @@
-const build = require('unist-builder');
-const { isLink, isText } = require('./predicates');
-const { createBibliaLink } = require('./links');
+import build from 'unist-builder';
+import { isLink, isText } from './predicates.js';
+import { createBibliaLink } from './links.js';
 
-function applyScanResults(node, scanResults) {
+export function applyScanResults(node, scanResults) {
   if (isLink(node)) {
     return node;
   }
@@ -58,5 +58,3 @@ function* createNodesForScanResult(text, scanResult) {
     yield build('text', text.substr(lastEndIndex));
   }
 }
-
-module.exports.applyScanResults = applyScanResults;

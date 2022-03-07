@@ -1,6 +1,6 @@
 const bibliaPrefix = 'https://biblia.com/bible/';
 
-function createBibliaLink({
+export function createBibliaLink({
   book,
   endBook,
   chapter,
@@ -46,5 +46,3 @@ function formatPassage({ book, chapter, verse }, separator = '-') {
 function formatBookName(book) {
   return book.toLowerCase().replace(' ', '-');
 }
-
-module.exports.createBibliaLink = createBibliaLink;

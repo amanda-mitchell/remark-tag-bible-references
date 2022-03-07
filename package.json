@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "private": false,
+  "type": "module",
   "files": [
     "*.js"
   ],
@@ -26,7 +27,7 @@
     "unist-util-is": "^4.1.0"
   },
   "devDependencies": {
-    "@amanda-mitchell/biblia-api": "^3.2.2",
+    "@amanda-mitchell/biblia-api": "^4.0.0",
     "@amanda-mitchell/node-project-scripts": "^3.10.7",
     "dotenv": "^16.0.0",
     "jest": "^26.6.3",

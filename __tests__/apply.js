@@ -1,5 +1,5 @@
-const build = require('unist-builder');
-const { applyScanResults } = require('../apply');
+import build from 'unist-builder';
+import { applyScanResults } from '../apply.js';
 
 const trees = [
   {

@@ -1,5 +1,5 @@
-const build = require('unist-builder');
-const { isText, isLink } = require('../predicates');
+import build from 'unist-builder';
+import { isText, isLink } from '../predicates.js';
 
 describe('isText', () => {
   test('it returns true for a text node', () => {

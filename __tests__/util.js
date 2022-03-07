@@ -1,4 +1,4 @@
-const { awaitValues } = require('../util');
+import { awaitValues } from '../util.js';
 
 function delayedValue(value) {
   return new Promise(resolve => setImmediate(() => resolve(value)));
