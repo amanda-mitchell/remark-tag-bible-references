@@ -11,15 +11,13 @@ yarn add @amanda-mitchell/biblia-api @amanda-mitchell/remark-tag-bible-reference
 ## Usage
 
 ```js
-const unified = require('unified');
-const markdown = require('remark-parse');
-const stringify = require('rehype-stringify');
-const remark2rehype = require('remark-rehype');
-const fetch = require('node-fetch'); // This can be any library that implements the Fetch interface
-const { createBibliaApiClient } = require('@amanda-mitchell/biblia-api');
-const {
-  tagBibleReferences,
-} = require('@amanda-mitchell/remark-tag-bible-references');
+import { unified } from 'unified';
+import markdown from 'remark-parse';
+import stringify from 'rehype-stringify';
+import remark2rehype from 'remark-rehype';
+import fetch from 'node-fetch'; // This can be any library that implements the Fetch interface
+import { createBibliaApiClient } from '@amanda-mitchell/biblia-api';
+import { tagBibleReferences } from '@amanda-mitchell/remark-tag-bible-references';
 
 const apiKey =
   'Go to https://bibliaapi.com/docs/API_Keys to generate an API key.';

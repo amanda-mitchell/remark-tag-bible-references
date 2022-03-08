@@ -23,8 +23,8 @@
     "node": ">=11.0.0"
   },
   "dependencies": {
-    "unist-builder": "^2.0.3",
-    "unist-util-is": "^4.1.0"
+    "unist-builder": "^3.0.0",
+    "unist-util-is": "^5.1.1"
   },
   "devDependencies": {
     "@amanda-mitchell/biblia-api": "^4.0.0",
@@ -33,6 +33,6 @@
     "jest": "^27.5.1",
     "node-fetch": "^2.6.7",
     "remark-parse": "^10.0.1",
-    "unified": "^9.2.1"
+    "unified": "^10.1.1"
   }
 }

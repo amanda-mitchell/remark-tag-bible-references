@@ -1,4 +1,4 @@
-import build from 'unist-builder';
+import { u as build } from 'unist-builder';
 import { scanTextNodes } from '../scan.js';
 
 test('it scans a text node', async () => {

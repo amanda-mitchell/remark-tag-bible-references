@@ -1,4 +1,4 @@
-import build from 'unist-builder';
+import { u as build } from 'unist-builder';
 import { isLink, isText } from './predicates.js';
 import { createBibliaLink } from './links.js';
 

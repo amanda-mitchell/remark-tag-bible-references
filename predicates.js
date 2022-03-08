@@ -1,4 +1,4 @@
-import is from 'unist-util-is';
+import { convert } from 'unist-util-is';
 
-export const isLink = is.convert(['link', 'linkReference']);
-export const isText = is.convert('text');
+export const isLink = convert(['link', 'linkReference']);
+export const isText = convert('text');
