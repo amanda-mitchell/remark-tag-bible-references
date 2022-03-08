@@ -33,6 +33,6 @@
     "jest": "^27.5.1",
     "node-fetch": "^3.2.2",
     "remark-parse": "^10.0.1",
-    "unified": "^10.1.1"
+    "unified": "^10.1.2"
   }
 }
