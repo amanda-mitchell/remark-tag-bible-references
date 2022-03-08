@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@amanda-mitchell/biblia-api@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@amanda-mitchell/biblia-api/-/biblia-api-4.0.0.tgz#bf391bb535b27fb29debf71b6280feb81ce4f036"
-  integrity sha512-yS7c/ixUKbWpu0PSaSQ3CtZkCBRUxADfdjxbSi3tVB5wKw0HA6+q52yzhvXDfZInzGx62stsESaibs8DAKECLw==
+"@amanda-mitchell/biblia-api@^4.0.1":
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/biblia-api/-/biblia-api-4.0.1.tgz#bded13c576a92c3abcbb0bf25da159b203065c0e"
+  integrity sha512-BhHeZPnpEdqg6rl9TOF2xHI3QJYF71dQGUoVLnQFpoWEJ5j9r+lc7hZuOR/kjGb4MBJKkjlFEae03Ch84/h9mg==
 
 "@amanda-mitchell/node-project-scripts@^3.11.0":
   version "3.11.0"
