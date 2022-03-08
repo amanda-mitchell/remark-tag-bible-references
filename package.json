@@ -27,7 +27,7 @@
     "unist-util-is": "^5.1.1"
   },
   "devDependencies": {
-    "@amanda-mitchell/biblia-api": "^4.0.0",
+    "@amanda-mitchell/biblia-api": "^4.0.1",
     "@amanda-mitchell/node-project-scripts": "^3.10.7",
     "dotenv": "^16.0.0",
     "jest": "^27.5.1",
