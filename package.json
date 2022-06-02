@@ -31,7 +31,7 @@
     "@amanda-mitchell/node-project-scripts": "^3.65.0",
     "dotenv": "^16.0.1",
     "jest": "^28.1.0",
-    "node-fetch": "^3.2.4",
+    "node-fetch": "^3.2.5",
     "remark-parse": "^10.0.1",
     "unified": "^10.1.2"
   }
