@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "unist-builder": "^3.0.0",
-    "unist-util-is": "^5.1.1"
+    "unist-util-is": "^5.2.0"
   },
   "devDependencies": {
     "@amanda-mitchell/biblia-api": "^4.0.2",
