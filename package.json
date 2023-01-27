@@ -30,7 +30,7 @@
     "@amanda-mitchell/biblia-api": "^4.0.2",
     "@amanda-mitchell/node-project-scripts": "^3.200.0",
     "dotenv": "^16.0.3",
-    "jest": "^29.3.1",
+    "jest": "^29.4.1",
     "node-fetch": "^3.3.0",
     "remark-parse": "^10.0.1",
     "unified": "^10.1.2"
