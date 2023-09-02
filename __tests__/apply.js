@@ -24,7 +24,7 @@ const trees = [
             bibleReference: { passage: 'passage', parts: { book: 'book' } },
           },
         },
-        [build('text', 'Hello')]
+        [build('text', 'Hello')],
       ),
       build('text', ', world!'),
     ]),
@@ -55,7 +55,7 @@ const trees = [
                 bibleReference: { passage: 'passage', parts: { book: 'book' } },
               },
             },
-            [build('text', 'Hello')]
+            [build('text', 'Hello')],
           ),
           build('text', ', world!'),
         ]),
@@ -96,7 +96,7 @@ const trees = [
               bibleReference: { passage: 'passage', parts: { book: 'book' } },
             },
           },
-          [build('text', 'Hello')]
+          [build('text', 'Hello')],
         ),
         build('text', ', world!'),
       ]),
@@ -113,7 +113,7 @@ const trees = [
               },
             },
           },
-          [build('text', 'text')]
+          [build('text', 'text')],
         ),
       ]),
     ]),
@@ -144,7 +144,7 @@ const trees = [
               bibleReference: { passage: 'passage', parts: { book: 'book' } },
             },
           },
-          [build('text', 'Hello')]
+          [build('text', 'Hello')],
         ),
         build('text', ', world!'),
       ]),
@@ -157,7 +157,7 @@ const trees = [
               bibleReference: { passage: 'passage', parts: { book: 'book' } },
             },
           },
-          [build('text', 'Hello')]
+          [build('text', 'Hello')],
         ),
         build('text', ', world!'),
       ]),
@@ -194,5 +194,5 @@ describe.each(trees)(
 
       expect(result).toEqual(expectedResult);
     });
-  }
+  },
 );

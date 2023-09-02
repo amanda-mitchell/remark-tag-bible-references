@@ -4,14 +4,14 @@ import { isLink, isText } from './predicates.js';
 export async function scanTextNodes(tree, bibliaApi, { tagChapters }) {
   const scanResults = await mapUniqueValues(
     findLinkableTextNodeValues(tree),
-    text => scanForReferences(bibliaApi, text, tagChapters)
+    text => scanForReferences(bibliaApi, text, tagChapters),
   );
 
   const resultValues = Object.values(scanResults).flat();
 
   const parseResults = await mapUniqueValues(
     resultValues.map(({ passage }) => passage),
-    passage => getPassageParts(bibliaApi, passage)
+    passage => getPassageParts(bibliaApi, passage),
   );
 
   for (const resultValue of resultValues) {
@@ -29,8 +29,8 @@ async function mapUniqueValues(values, fn) {
       {},
       ...uniqueValues.map(value => ({
         [value]: fn(value),
-      }))
-    )
+      })),
+    ),
   );
 }
 
