@@ -18,7 +18,7 @@ test('it scans a text node', async () => {
   const result = await scanTextNodes(
     build('text', 'Hello, world!'),
     bibliaApi,
-    { tagChapters: true }
+    { tagChapters: true },
   );
 
   expect(result).toEqual({

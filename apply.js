@@ -48,7 +48,7 @@ function* createNodesForScanResult(text, scanResult) {
           bibleReference: { parts, passage },
         },
       },
-      [build('text', text.substr(textIndex, textLength))]
+      [build('text', text.substr(textIndex, textLength))],
     );
 
     lastEndIndex = textIndex + textLength;

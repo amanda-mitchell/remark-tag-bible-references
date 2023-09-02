@@ -65,7 +65,7 @@ Genesis 2:1, 3-4
               },
               url: 'https://biblia.com/bible/proverbs/26/4-5',
             },
-            [build('text', 'Prov 26:4-5')]
+            [build('text', 'Prov 26:4-5')],
           ),
           build('text', '.\nI am going to place a verse reference like '),
           build(
@@ -79,7 +79,7 @@ Genesis 2:1, 3-4
               },
               url: 'https://biblia.com/bible/genesis/2/1',
             },
-            [build('text', 'Genesis\n2:1')]
+            [build('text', 'Genesis\n2:1')],
           ),
           build('text', ' across a line break.'),
         ]),
@@ -95,7 +95,7 @@ Genesis 2:1, 3-4
               },
               url: 'https://biblia.com/bible/genesis/2/1',
             },
-            [build('text', 'Genesis 2:1')]
+            [build('text', 'Genesis 2:1')],
           ),
           build('text', ', '),
           build(
@@ -114,10 +114,10 @@ Genesis 2:1, 3-4
               },
               url: 'https://biblia.com/bible/genesis/2/3-4',
             },
-            [build('text', '3-4')]
+            [build('text', '3-4')],
           ),
         ]),
-      ])
+      ]),
     );
   });
 });
