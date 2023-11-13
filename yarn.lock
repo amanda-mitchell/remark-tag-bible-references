@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@amanda-mitchell/biblia-api/-/biblia-api-4.0.2.tgz#883fd550bca7d8eaeb95b37c470bc5052e179ed3"
   integrity sha512-8YQNON5nAt1ncGJoIXQ5t+14el/XdnqILoZSN1sFBSUXvU1pQKzofT1pUgjJoWPRlNPCjAbxhpPD9j807s/Zmg==
 
-"@amanda-mitchell/node-project-scripts@^4.28.0":
-  version "4.28.0"
-  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-4.28.0.tgz#a1ec07be4c5c4cde547b606dd3f169d6d2d00429"
-  integrity sha512-T873UR5R4fDV922FfaI6hLxvjMio3im5xDJ1RL/YKBaCgjD7iBn/NLL+fkFyJLVrhhxb443zyECrzuE3cRD6jQ==
+"@amanda-mitchell/node-project-scripts@^4.30.0":
+  version "4.30.0"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-4.30.0.tgz#8fd3836fcc3957865630b2fc9323e45267cf416d"
+  integrity sha512-oV2MT6habB/qSaV4UZj7ddLZSHPzwFU+tgOAXWXrxOE+RCJrB+U8fqQR0HDZoLmW/HlCQ8LQr5QE2VNvCcdVig==
   dependencies:
     "@amanda-mitchell/semantic-release-npm-multiple" "^3.0.0"
     "@commitlint/cli" "^18.0.0"
