@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@amanda-mitchell/biblia-api/-/biblia-api-4.0.2.tgz#883fd550bca7d8eaeb95b37c470bc5052e179ed3"
   integrity sha512-8YQNON5nAt1ncGJoIXQ5t+14el/XdnqILoZSN1sFBSUXvU1pQKzofT1pUgjJoWPRlNPCjAbxhpPD9j807s/Zmg==
 
-"@amanda-mitchell/node-project-scripts@^4.79.0":
-  version "4.79.0"
-  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-4.79.0.tgz#4cdadcbf0d30bce9b94aa7e82af62efd85bca836"
-  integrity sha512-IdrdfZbZ6LZ6qRMoX1D21VOXASq7ICK2cpBDuOmInrnkRJnvSkf7/JAOVMjhbqnmZQZ/p3DCUgoFbJHYzGIdGA==
+"@amanda-mitchell/node-project-scripts@^4.80.0":
+  version "4.80.0"
+  resolved "https://registry.yarnpkg.com/@amanda-mitchell/node-project-scripts/-/node-project-scripts-4.80.0.tgz#53b9f00225b50dfe3e32ec0ea4e9fbac13eaaa97"
+  integrity sha512-b5nxXfldvNA/lScwtGBaCKMyUkb2i/KqqZ/fraHLs56lDSY7BFSiiZhMNcCLLxVd6S1F6xGg99d4sWvShFr/AQ==
   dependencies:
     "@amanda-mitchell/semantic-release-npm-multiple" "^3.0.0"
     "@commitlint/cli" "^19.0.0"
@@ -27,7 +27,7 @@
     prettier "3.2.5"
     semantic-release "^19.0.2"
     ts-jest "29.1.2"
-    typescript "5.4.4"
+    typescript "5.4.5"
 
 "@amanda-mitchell/semantic-release-npm-multiple@^3.0.0":
   version "3.1.0"
@@ -6562,10 +6562,10 @@ type-fest@^1.0.2:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-1.4.0.tgz#e9fb813fe3bf1744ec359d55d1affefa76f14be1"
   integrity sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==
 
-typescript@5.4.4:
-  version "5.4.4"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.4.tgz#eb2471e7b0a5f1377523700a21669dce30c2d952"
-  integrity sha512-dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==
+typescript@5.4.5:
+  version "5.4.5"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
+  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
 
 uglify-js@^3.1.4:
   version "3.16.0"
